@@ -1,4 +1,4 @@
-from fastapi import APIRouter, UploadFile, HTTPException, Body
+from fastapi import APIRouter, UploadFile, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import List

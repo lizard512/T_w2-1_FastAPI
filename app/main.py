@@ -1,6 +1,7 @@
 from fastapi import FastAPI
-from image import img_router
+from app.image import img_router
 from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
 
 app = FastAPI()
 
